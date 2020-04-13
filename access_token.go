@@ -60,7 +60,7 @@ type VideoGrant struct {
 }
 
 // GrantName is the key to identify this as a Video grant.
-func (g *VideoGrant) GrantName() string {
+func (g VideoGrant) GrantName() string {
 	return "video"
 }
 
